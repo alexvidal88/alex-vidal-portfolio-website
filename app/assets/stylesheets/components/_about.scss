@@ -1,0 +1,82 @@
+.about{
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.about-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.about h1{
+  text-align: center;
+  color: #3F70EC;
+}
+
+/*.about h1:hover{
+  text-decoration: underline;
+}*/
+
+.about-photo{
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.about-profile-photo{
+  text-align: center;
+}
+
+
+.description{
+  width: 40%;
+  text-align: justify;
+
+  p{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .about-photo{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .description p{
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .about-content{
+    display: block;
+  }
+
+  .about-photo{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .about-profile-photo{
+    padding-bottom: 30px;
+  }
+
+  .description{
+    width: 100%;
+    padding: 30px;
+    text-align: justify;
+
+    p{
+      font-size: 1rem;
+    }
+  }
+}
