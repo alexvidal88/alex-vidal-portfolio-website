@@ -37,7 +37,7 @@
   color: #333;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-  background-image: url("https://media.itpro.co.uk/image/upload/v1570816546/itpro/2019/02/software_shutterstock_1290773869.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://media.itpro.co.uk/image/upload/v1570816546/itpro/2019/02/software_shutterstock_1290773869.jpg");
   background-size: cover;
   background-position: center;
 
@@ -60,13 +60,13 @@
   transform: rotateY(180deg);
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-  background-image: url("https://www.exascaleproject.org/wp-content/uploads/2019/11/PathForward-scaled.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://www.exascaleproject.org/wp-content/uploads/2019/11/PathForward-scaled.jpg");
   background-size: cover;
   background-position: center;
 
   .skills-names{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0px;
     list-style: none;
     align-items: center;
@@ -84,7 +84,7 @@
   color: #333;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-  background-image: url("https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
   background-size: cover;
   background-position: center;
 
@@ -107,13 +107,13 @@
   transform: rotateY(180deg);
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-  background-image: url("https://web-dev.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/jHUvdkuNQBLYxfWrCizd.jpg?auto=format");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://web-dev.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/jHUvdkuNQBLYxfWrCizd.jpg?auto=format");
   background-size: cover;
   background-position: center;
 
   .skills-names{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0px;
     list-style: none;
     align-items: center;

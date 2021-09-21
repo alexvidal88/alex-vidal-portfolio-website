@@ -11,6 +11,11 @@
   align-items: center;
   padding: 30px;
   margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://wallpaperstock.net/surf-up%2c-animated%2c-summer%2c-nature-wallpapers_56020_852x480.jpg");
 }
 
 .about h1{
@@ -28,6 +33,7 @@
   height: 50%;
   text-align: center;
   border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.6);
 }
 
 .about-profile-photo{
@@ -45,6 +51,8 @@
 
   p{
     font-size: 1rem;
+    color: white;
+    font-weight: bold;
   }
 }
 
