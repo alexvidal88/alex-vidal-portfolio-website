@@ -24,9 +24,9 @@ nav {
   }
 }
 
-/*.logo h4{
-  padding-left: 40px;
-}*/
+.logo {
+  padding-top: 10px;
+}
 
 .logo img{
   height: 7vh;
@@ -90,6 +90,7 @@ nav {
   .burger{
     display: block;
     padding-right: 20px;
+    padding-bottom: 10px;
   }
 
   .logo img{

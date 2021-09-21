@@ -4,15 +4,19 @@
 }
 
 .about-content{
+  width: 80%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 30px;
+  padding: 30px;
+  margin: auto;
 }
 
 .about h1{
   text-align: center;
   color: #3F70EC;
+  margin-bottom: 30px;
 }
 
 /*.about h1:hover{
@@ -20,36 +24,40 @@
 }*/
 
 .about-photo{
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   text-align: center;
   border-radius: 5px;
 }
 
 .about-profile-photo{
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 
 .description{
-  width: 40%;
+  width: 50%;
   text-align: justify;
+  padding-right: 40px;
+  margin: auto;
 
   p{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 1024px){
   .about-photo{
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     text-align: center;
     border-radius: 5px;
   }
 
   .description p{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -60,8 +68,8 @@
   }
 
   .about-photo{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     text-align: center;
     border-radius: 5px;
   }
@@ -76,7 +84,7 @@
     text-align: justify;
 
     p{
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
 }

@@ -1,76 +1,155 @@
 .skills{
   height: 100vh;
   margin-top: 100px;
+  align-items: center;
 }
 
 .skills-wrap{
   margin-top: 40px;
   display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: space-around;
-}
+  margin: auto;
 
-.skills-content{
-  flex-direction: column;
-  width: 50%;
 }
 
 .skills h1{
   text-align: center;
-  padding-top: 30px;
+  padding-bottom: 30px;
   color: #3F70EC;
 }
 
-.skills-work{
-  text-align: center;
-  justify-items: center;
-  width: 50%;
+.thecard{
+  position: relative;
+  width: 300px;
+  height: 370px;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
 }
 
-.skills-work-photo{
-  width: 250px;
-  height: 200px;
-  border-radius: 5px;
-  text-align: center;
-}
+.cardfront-frontend{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  background-image: url("https://media.itpro.co.uk/image/upload/v1570816546/itpro/2019/02/software_shutterstock_1290773869.jpg");
+  background-size: cover;
+  background-position: center;
 
-.skills-names{
-  text-align: center;
-}
-
-.skills-data{
-  opacity: 0.7;
-  width: 50%;
-  border-style: solid;
-  flex-direction: column;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 10px ;
-  border-radius: 5px;
-}
-
-.skills-data:hover {
-  opacity: 1;
-}
-
-
-@media screen and (max-width: 768px){
-  .skills-wrap{
-    flex-direction: column;
-    text-align: center;
+  h1{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: auto;
   }
+}
+
+.cardback-frontend{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: black;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  background-image: url("https://www.exascaleproject.org/wp-content/uploads/2019/11/PathForward-scaled.jpg");
+  background-size: cover;
+  background-position: center;
 
   .skills-names{
     text-align: center;
+    font-size: 2rem;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    color: white;
   }
+}
 
-  .skills-content{
-    padding-bottom: 50px;
-    width: 100%;
+.cardfront-backend{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  background-image: url("https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  background-position: center;
+
+  h1{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: auto;
   }
+}
 
-  .skills-work{
+.cardback-backend{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: black;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  background-image: url("https://web-dev.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/jHUvdkuNQBLYxfWrCizd.jpg?auto=format");
+  background-size: cover;
+  background-position: center;
+
+  .skills-names{
     text-align: center;
-    justify-items: center;
-    width: 100%;
+    font-size: 2rem;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    color: transparent;
+    text-shadow: 0 0 0 white;
+
+    li{
+      text-align: center;
+      width: 100%;
+      align-items: center;
+      margin: auto;
+    }
+  }
+}
+
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 768px){
+  .skills-wrap{
+    width: 70%;
+    height: 80%;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .thecard{
+    position: relative;
+    width: 200px;
+    height: 270px;
+
+    .skills-names{
+      font-size: 1rem;
+    }
   }
 }
