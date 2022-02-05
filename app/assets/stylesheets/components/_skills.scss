@@ -1,14 +1,22 @@
 .skills{
-  height: 100vh;
-  margin-top: 100px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://free4kwallpapers.com/uploads/wallpaper/spring-in-patagonialago-pehoe-torres-del-paine-national-park-wallpaper-1024x768-wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  height: 100vh;
+  margin: auto;
+  /*padding-bottom: 80px;*/
 }
 
 .skills-wrap{
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   justify-content: space-around;
   margin: auto;
 
@@ -16,11 +24,13 @@
 
 .skills h1{
   text-align: center;
-  padding-bottom: 30px;
-  color: #3F70EC;
+  margin: auto;
+  /*padding-bottom: 30px;*/
+  color: #FFFFFF;
 }
 
 .thecard{
+  margin: auto;
   position: relative;
   width: 350px;
   height: 420px;
@@ -134,7 +144,7 @@
   transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
   .skills-wrap{
     width: 70%;
     height: 80%;

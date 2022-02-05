@@ -1,6 +1,22 @@
 .about{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://free4kwallpapers.com/uploads/wallpaper/cerro-torrez-patagonia-wallpaper-1024x768-wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   height: 100vh;
-  margin-top: 100px;
+  padding-bottom: 80px;
+  /*margin-top: 100px;*/
+}
+
+.about h1{
+  text-align: center;
+  color: #FFFFFF;
+  /*margin-bottom: 30px;*/
+  margin: auto;
 }
 
 .about-content{
@@ -15,24 +31,15 @@
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://wallpaperstock.net/surf-up%2c-animated%2c-summer%2c-nature-wallpapers_56020_852x480.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://free4kwallpapers.com/uploads/wallpaper/torres-del-paine--chilean-patagonia-wallpaper-1024x768-wallpaper.jpg");
 }
 
-.about h1{
-  text-align: center;
-  color: #3F70EC;
-  margin-bottom: 30px;
-}
-
-/*.about h1:hover{
-  text-decoration: underline;
-}*/
 
 .about-photo{
   width: 50%;
   height: 50%;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 50%;
   box-shadow: 0 5px 20px rgba(0,0,0,0.6);
 }
 
@@ -61,7 +68,7 @@
     width: 70%;
     height: 90%;
     text-align: center;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
   }
 
   .description p{
@@ -79,7 +86,7 @@
     width: 80%;
     height: 80%;
     text-align: center;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
   }
 
   .about-profile-photo{

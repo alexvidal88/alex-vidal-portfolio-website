@@ -1,9 +1,14 @@
 .contact{
-  height: 70vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://free4kwallpapers.com/uploads/wallpaper/glacier-patagonia-landscape-argentina-wallpaper-1024x768-wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  z-index: 0.8;
+  height: 100vh;
+  margin: auto;
 }
 
 .form{
@@ -13,7 +18,7 @@
 .contact h1 {
   text-align: center;
   margin: 35px 0 20px 0 !important;
-  color: #3F70EC;
+  color: #FFFFFF;
 }
 
 .btn-dark{
